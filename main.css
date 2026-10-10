@@ -112,3 +112,18 @@ textarea:focus {
     outline: none;
     border-color: var(--color-neon-green);
 }
+
+.techno-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    flex: 1 1 220px;
+    background: var(--color-panel-light);
+    border: 1px solid var(--color-accent-soft);
+    border-radius: 20px;
+    padding: 20px;
+    transition: 0.2s;
+}
