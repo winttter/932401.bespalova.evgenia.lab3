@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang='ru'>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>О себе</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <style>
+        h1,
+        h2,
+        h3 {
+            font-family: 'Russo One', sans-serif;
+            letter-spacing: 2px;
+            text-transform: capitalize;
+        }
+    </style>
+    <link rel='stylesheet' href='main.css'>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Беспалова Евгения, футуролог и концепт-художник</h1>
+        </header>
+        <main>
+            <div class="content">
+                <div id="avatar">
+                    <img src="https://picsum.photos/200" width="200" height="200" style="border-radius: 50%;"
+                        alt="Аватар Евгении Беспаловой">
+                </div>
+                <section style="overflow: hidden">
+                    <h2>Навыки</h2>
+                    <ul>
+                        <li>создание концепт-артов - создаю уникальные концепты для будущих продуктов</li>
+                        <li>анализ трендов - изучаю и прогнозирую будущие направления в дизайне и технологиях</li>
+                        <li>работа с 3D-моделями - создаю детализированные модели для различных применений</li>
+                        <li>векторная графика - разрабатываю эстетичные и функциональные векторные решения</li>
+                    </ul>
+                </section>
+                <section style="overflow: hidden">
+                    <h2>Проекты</h2>
+                    <ol>
+                        <li>города будущего - через 100 лет все будет иначе</li>
+                        <li>интерактивные инсталляции - создаю immersive опыт для пользователей</li>
+                        <li>виртуальная реальность - разрабатываю интерактивные среды для различных применений</li>
+                        <li>нейроинтерфейсы - исследую возможности взаимодействия между мозгом и компьютером</li>
+                    </ol>
+                </section>
+                <div id="contacts" style="overflow: hidden">
+                    <h2>Контакты</h2>
+                    <p>Если вы хотите связаться со мной, пожалуйста, заполните форму ниже:</p>
+                    <form action="#">
+                        <div>
+                            <label for="name">Имя:</label>
+                            <input id="name" name="name" type="text" placeholder="Введите ваше имя">
+                        </div>
+                        <div>
+                            <label for="email">Email:</label>
+                            <input id="email" name="email" type="email" placeholder="Введите ваш email">
+                        </div>
+                        <div>
+                            <label for="message">Сообщение:</label>
+                            <textarea name="message" id="message" placeholder="Введите ваше сообщение"></textarea>
+                        </div>
+                        <button type="submit">Отправить</button>
+                    </form>
+                </div>
+            </div>
+            <aside>
+                <h3>Технология, которая изменит мир</h3>
+                <p>Космические колонии - это будущее человечества в космосе.</p>
+                <p>Они позволят жить на других планетах и сотрудничать с инопланетными цивилизациями. Таким образом,
+                    человечество сможет расширить свои границы и выйти за пределы Земли.</p>
+            </aside>
+        </main>
+        <footer>
+            <p>&copy; <span id="year">2026</span> Беспалова Евгения. Все права защищены.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
